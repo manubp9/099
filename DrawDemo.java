@@ -119,7 +119,7 @@ public class DrawDemo
         for(int i=0; i< 90 ; i++)
         {
             pen.penDown();
-            pen.move(lado+= 5);
+            pen.move(lado+= 2);
             pen.turn(90);
             
             
