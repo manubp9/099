@@ -109,6 +109,26 @@ public class DrawDemo
 
     }
     /**
+     * 
+     */
+    public void drawSpiral()
+    {
+        Pen pen = new Pen(100,50 ,myCanvas);
+        pen.setColor(Color.BLACK);
+        int lado =30;
+        for(int i=0; i< 150 ; i++)
+        {
+            pen.penDown();
+            pen.move(lado+= 5);
+            pen.turn(90);
+            
+            
+        }
+        
+        
+    }
+    
+    /**
      * Draw some random squiggles on the screen, in random colors.
      */
     public void colorScribble()
