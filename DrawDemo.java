@@ -109,14 +109,14 @@ public class DrawDemo
 
     }
     /**
-     * 
+     * Draw a spiral
      */
     public void drawSpiral()
     {
-        Pen pen = new Pen(100,50 ,myCanvas);
+        Pen pen = new Pen(125,125 ,myCanvas);
         pen.setColor(Color.BLACK);
-        int lado =30;
-        for(int i=0; i< 150 ; i++)
+        int lado =50;
+        for(int i=0; i< 90 ; i++)
         {
             pen.penDown();
             pen.move(lado+= 5);
