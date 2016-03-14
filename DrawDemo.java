@@ -64,6 +64,21 @@ public class DrawDemo
         
         
     }
+    /**
+     * Draw a green pentagon
+     */
+    public void drawPentagon()
+    {
+        
+        Pen pen = new Pen(100,50 ,myCanvas);
+        pen.setColor(Color.GREEN);
+        for (int i = 0 ; i< 5; i++)
+        {
+            pen.move(50);
+            pen.turn(365/5);
+            
+        }
+    }
 
     /**
      * Draw a square in the pen's color at the pen's location.
